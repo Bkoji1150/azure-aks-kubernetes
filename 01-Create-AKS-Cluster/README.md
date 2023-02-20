@@ -97,7 +97,7 @@ az login
 az aks install-cli
 
 # Configure Cluster Creds (kube config)
-az aks get-credentials --resource-group kojitechs-ag1 --name aksdemo1
+az aks get-credentials --resource-group kojitech-ag1 --name aksdemo1
 
 # List AKS Nodes
 kubectl get nodes 
